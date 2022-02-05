@@ -21,7 +21,7 @@ function TodoForm({ addTodo }) {
         value={value}
         onChange={e => setValue(e.target.value)}
       />  
-      <input type="submit" value="Dodaj" />
+      <button type="submit"  value="Submit">+</button>
     </form>
   );
 }
