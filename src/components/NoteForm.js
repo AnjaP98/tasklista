@@ -23,7 +23,7 @@ function NoteForm({ addNote }) {
         onChange={e => setValue(e.target.value)}
         placeholder = "Napisi novu belesku..."
       />  
-      <input type="submit" value="Dodaj" />
+       <button type="submit"  value="Submit">+</button>
     </form>
   );
   
