@@ -7,6 +7,7 @@ function Todo({ todo, index, completeTodo, removeTodo }) {
       style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}
     >
       {todo.text}
+ <br></br>
       <div>
         <button  onClick={() => completeTodo(index)}>Završeno</button>
         <button onClick={() => removeTodo(index)}>x Ukloni</button>
